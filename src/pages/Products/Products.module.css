@@ -1,0 +1,24 @@
+.productsContainer {
+    display: flex;
+    height: 100vh;
+    background-color: #0A0A17;
+  }
+  
+  .mainContent {
+    margin-left: 240px; /* Adjust based on sidebar width */
+    transition: margin-left 0.3s ease-in-out;
+    flex:1;
+    padding: 5px;
+  }
+  
+  .mainContent.collapsed {
+    margin-left: 80px; /* Adjust for closed sidebar */
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:azure;
+  }
+  

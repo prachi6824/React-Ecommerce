@@ -1,0 +1,19 @@
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+.mainContent {
+    flex-grow: 1;
+    margin-left: 200px; 
+    padding-top: 60px;  
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.pageContent {
+    padding: 20px;
+}
+
+.closed + .mainContent {
+    margin-left: 60px; 
+}

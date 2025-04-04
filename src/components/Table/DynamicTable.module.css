@@ -1,0 +1,65 @@
+.tableContainer {
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    justify-content: center; /* Centering filters */
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Table Styling */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th, .table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center; /* Center the text in both headers and cells */
+    vertical-align: middle;
+  }
+  
+  .table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  .addProductContainer {
+    display: flex;
+    justify-content: flex-start; /* Align button to the right */
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  

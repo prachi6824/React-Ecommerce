@@ -1,0 +1,33 @@
+.tableBody tr {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tableBody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .tableBody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .tableBody td:first-child {
+    font-weight: bold;
+  }
+  .editButton {
+    background-color: #4CAF50 !important;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .deleteButton {
+    background-color: #E74C3C !important;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }

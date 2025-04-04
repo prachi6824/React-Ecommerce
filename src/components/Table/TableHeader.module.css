@@ -1,0 +1,19 @@
+.tableHeader {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  color: #333;
+}
+
+.tableHeader th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.tableHeader th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.tableHeader th:last-child {
+  border-top-right-radius: 8px;
+}

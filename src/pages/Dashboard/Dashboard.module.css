@@ -40,3 +40,32 @@
 .cards4{
     background: linear-gradient(135.47deg, #2196F3 0%, rgba(230, 122, 88, 0.5) 115.44%); 
  }
+
+  .card {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card.active {
+    background-color: #d1e7dd;
+    transform: scale(1.05);
+    border: 2px solid #0f5132;
+  }
+  .chartContainer {
+    background-color: #dfdedd;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height:400px
+  }
+  .cardsContainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
